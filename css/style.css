@@ -35,7 +35,7 @@ html {
     position: relative;
 }
 footer {
-    height: 20rem;
+    min-height: 20rem;
     background-color: #083321;
     color: white;
 }
