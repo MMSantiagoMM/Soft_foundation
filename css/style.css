@@ -36,4 +36,21 @@ html {
 }
 footer {
     height: 20rem;
+    background-color: #083321;
+    color: white;
 }
+footer > a > img {
+    width: 2rem;
+    height: 1rem;
+    border: 0.1rem solid green;
+}
+.lista {
+    width: 100rem;
+    justify-content: space-around;
+    background-color: #083321;
+    border-radius: 1rem;
+}
+a {
+    color: white;
+}
+
