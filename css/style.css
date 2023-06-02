@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+.banner {
+    background-image: url("/img/banner.jpg");
+    width: 100%;
+    padding: 25%;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.banner::after {
+    content: ' ';
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25%;
+    opacity: 0.7;
+}
+.banner_2 {
+    background-image: url("/img/banner_2.png");
+    width: 100%;
+    padding: 25%;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+footer {
+    height: 20rem;
+}
