@@ -113,17 +113,13 @@ h1{
     justify-content: space-around;
 }
 @media screen and (max-width:600px) {
-    .container1, .container2, .container3 {
+    .container1 img, .container2 img, .container3 img {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
+        width: 100%;
+        margin-bottom: 15px;
 
-    .img{
-        width: 300px;
-        height: 200px;
-        display: flex;
-        justify-content: center;
     }
     
 }
