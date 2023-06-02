@@ -1,0 +1,133 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	box-shadow: 5px 4px 18px rgba(0,0,0,0.4);
+	transition: all 500ms ease-out;
+	cursor: default;
+
+}
+.card:hover{
+	box-shadow: 15px 15px 20px rgba(0,0,0,0.50);
+	transform: translateY(-3%);
+	
+}
+
+.bar_progres {
+	height: auto;
+	font-size: 5rem;
+	font-weight: bold;
+	color: black;
+	animation-timing-function:     400s linear infinite;
+	background-color: blueviolet;
+}
+
+#imagenes-carousel .carousel-item img {
+    max-height: 80vh;
+    object-fit: cover;
+    filter: grayscale(20%);
+}
+
+
+#carousel {
+	position: relative;
+}
+#carousel .overlay  {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;   
+}
+
+.text-section {
+	margin: 10px;
+	
+}
+
+/*Button*/
+.card-button {
+    border: 2px solid #0c0c0c;
+    display: flex;
+    padding: .3rem;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+}
+   
+   /*Hover*/
+.card-img:hover {
+    transform: translateY(-25%);
+    box-shadow: rgba(15, 15, 15, 0.938) 0px 13px 47px -5px, rgba(8, 8, 8, 0.623) 0px 8px 16px -8px;
+}
+   
+.card-button:hover {
+    border: 1px solid #f76116;
+    background-color: #ffe1aa;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}
+   
+.card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-top: 1px solid #330000;
+}
+
+#imagenes-carousel .carousel-item img {
+    max-height: 80vh;
+    object-fit: cover;
+    filter: grayscale(10%);
+}
+
+
+#carousel {
+	position: relative;
+}
+#carousel .overlay  {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(150, 150, 150, 0.3);
+    color: rgb(255, 255, 255);
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;   
+}
+
+.text-section {
+	margin: 10px;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem; 	
+    }
+}
