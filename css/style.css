@@ -47,10 +47,15 @@ footer > a > img {
 .lista {
     width: 100rem;
     justify-content: space-around;
-    background-color: #083321;
+    background-color: #030504;
     border-radius: 1rem;
+    height: 6rem;
+    align-items: center;
 }
 a {
     color: white;
+}
+.img-nav{
+    height: 12rem;
 }
 
