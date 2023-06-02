@@ -58,4 +58,17 @@ a {
 .img-nav{
     height: 12rem;
 }
-
+.formu {
+    height: 45rem;
+}
+input {
+    height: 6rem;
+}
+select {
+    height: 6rem;
+}
+.title_form {
+    margin-left: 40rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
